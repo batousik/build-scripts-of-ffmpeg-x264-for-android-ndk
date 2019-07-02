@@ -1,7 +1,7 @@
 #!/bin/bash
-NDK=/Users/yesimroy/Library/Android/sdk/ndk-bundle
+
 PLATFORM=$NDK/platforms/android-21/arch-arm64/
-TOOLCHAIN=$NDK/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64
+TOOLCHAIN=$NDK/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64
 PREFIX=./android/arm64
 
 function build_one
